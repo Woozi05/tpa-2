@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(133, 196, 216);
+}
+
+h1 {
+    margin: 50px 500px 20px 500px;
+}
+
+p {
+    margin-bottom: 40px;
+    margin-left: 430px;
+}
+
+.weight p, .height p {
+    margin-bottom: unset;
+}
+
+input {
+    margin-bottom: 10px;
+    margin-left: 430px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: cornflowerblue;
+    margin-left: 430px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 0 5px #999;
+}
+
+button:hover {
+    background-color: rgb(73, 140, 227);
+}
+
+button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#result {
+    margin-top: 20px;
+    margin-left: 430px;
+}
